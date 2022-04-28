@@ -1,0 +1,64 @@
+.container{
+	width:  80vw;
+	height: 80vh;
+	display: inline-flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: left;
+	border: 3px solid blue;
+	border-style: outset;
+	margin: 5% 10%;
+}
+h2{
+	font-size: 3em;
+	color: turquoise;
+	margin: 0;
+}
+
+li{
+	color: darkgreen;
+	margin-left: 0;
+}
+
+#play {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  padding: 1.5rem;
+}
+
+#title {
+  font-size: 3.6rem;
+  margin-bottom: 0.6rem;
+}
+
+
+.explain {
+  padding: 0.6rem 0.4rem;
+  margin-left: 0.1rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+a:link, a:visited{
+	background-color: white;
+	color: darkgrey;
+	border: 3px solid blue;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: inherit;
+	text-decoration-color: turquoise;
+	display: inline-block;
+	margin-bottom: 8px;
+	font-size: 30px;
+}
+a:hover, a:active{
+	background-color: turquoise;
+	color: lightgrey;
+}

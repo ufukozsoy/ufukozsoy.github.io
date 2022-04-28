@@ -1,0 +1,35 @@
+#Scorers {
+	font-size :1.7rem;
+	list-style-type: inherit;
+	padding-left: 0;
+	margin-bottom: 4rem;
+}
+
+.container{
+	width:  80vw;
+	height: 80vh;
+	display: inline-flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: left;
+	border: 3px solid blue;
+	border-style: outset;
+	margin: 5% 10%;
+}
+
+a:link, a:visited{
+	background-color: white;
+	color: darkgrey;
+	border: 3px solid blue;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: inherit;
+	text-decoration-color: turquoise;
+	display: inline-block;
+	margin-bottom: 8px;
+	font-size: 30px;
+}
+a:hover, a:active{
+	background-color: turquoise;
+	color: lightgrey;
+}
